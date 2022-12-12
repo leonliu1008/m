@@ -15,10 +15,6 @@ app.post('/api/v1/posts', (req, res) => {
     });
 });
 
-app.get('/', (req, res) => {
-    res.send('Hello, welcome!');
-});
-
 app.listen(5050, () => {
     console.log('Server listening on port 5050');
 });
